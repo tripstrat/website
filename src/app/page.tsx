@@ -104,6 +104,10 @@ export default function HomePage() {
                 See the Complete Plan — $179
               </Link>
             </div>
+            <p className="mt-10 max-w-md text-sm font-light leading-7 tracking-wide text-cream/80">
+              A custom itinerary strategy — delivered within 2–3 days after your
+              questionnaire and payment.
+            </p>
           </div>
         </div>
       </section>
