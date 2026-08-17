@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TallyEmbed from "@/components/TallyEmbed";
 
 export const metadata: Metadata = {
   title: "Start planning",
@@ -42,11 +43,8 @@ export default function StartPage() {
             </h2>
           </div>
 
-          {/* Paste the external questionnaire embed code here. */}
-          <div className="flex min-h-[28rem] flex-col items-center justify-center bg-card px-8 py-20 text-center md:min-h-[32rem]">
-            <p className="max-w-md text-lg font-light leading-8 text-muted">
-              The questionnaire will appear here.
-            </p>
+          <div className="bg-card px-2 py-4 md:px-4 md:py-6">
+            <TallyEmbed formId="NpNz8l" />
           </div>
         </div>
 
