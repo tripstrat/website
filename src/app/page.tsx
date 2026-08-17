@@ -104,9 +104,6 @@ export default function HomePage() {
                 See the Complete Plan — $179
               </Link>
             </div>
-            <p className="mt-10 text-sm font-light tracking-wide text-cream/80">
-              Trusted by 1000+ travelers planning with more clarity and less stress.
-            </p>
           </div>
         </div>
       </section>
