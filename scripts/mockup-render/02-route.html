@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{width:510px;height:765px;overflow:hidden;background:#fffcf6}
+    body{font-family:Outfit,system-ui,sans-serif;font-weight:300;color:#1f2a27;-webkit-font-smoothing:antialiased}
+    .page{width:510px;height:765px;padding:48px 44px 40px;background:#fffcf6}
+    .top{display:flex;justify-content:space-between;align-items:baseline;padding-bottom:18px;border-bottom:1px solid #ded4c3}
+    .brand{font-family:"Cormorant Garamond",Georgia,serif;font-size:22px;color:#004f4f}
+    .label{font-size:10px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#5f6f6c}
+    h1{margin-top:28px;font-family:"Cormorant Garamond",Georgia,serif;font-size:36px;line-height:1.1;color:#003232;font-weight:400}
+    .intro{margin-top:14px;font-size:14px;line-height:1.65;color:#5f6f6c;max-width:380px}
+    .list{margin-top:36px}
+    .item{display:grid;grid-template-columns:36px 1fr;gap:14px;padding:18px 0;border-top:1px solid #ded4c3}
+    .item:last-child{border-bottom:1px solid #ded4c3}
+    .num{font-family:"Cormorant Garamond",Georgia,serif;font-size:20px;color:#004f4f;padding-top:1px}
+    .item h2{font-family:"Cormorant Garamond",Georgia,serif;font-size:20px;font-weight:400;color:#1f2a27}
+    .item p{margin-top:5px;font-size:13px;line-height:1.55;color:#5f6f6c}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="top">
+      <div class="brand">TripStrat</div>
+      <div class="label">Sample preview</div>
+    </div>
+    <h1>Route strategy</h1>
+    <p class="intro">The smartest order, pacing, and structure for your trip.</p>
+    <div class="list">
+      <div class="item"><div class="num">01</div><div><h2>Best route order</h2><p>The most efficient order based on flights, geography, time, and cost.</p></div></div>
+      <div class="item"><div class="num">02</div><div><h2>What fits</h2><p>Which cities, stops, or day trips make sense for your timeline.</p></div></div>
+      <div class="item"><div class="num">03</div><div><h2>What to skip</h2><p>What would make the trip rushed, expensive, or unrealistic.</p></div></div>
+      <div class="item"><div class="num">04</div><div><h2>Why it works</h2><p>A smoother route, less backtracking, and a better overall experience.</p></div></div>
+    </div>
+  </div>
+</body>
+</html>
